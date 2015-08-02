@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CAView
 //
-//  Created by Flávio Silvério on 02/08/15.
+//  Created by Flávio Silvério
 //  Copyright (c) 2015 Flávio Silvério. All rights reserved.
 //
 
