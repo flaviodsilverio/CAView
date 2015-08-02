@@ -9,6 +9,7 @@ The usage is pretty simple and straightforward. First of all you need to configu
 # Configuration
 
 As an example of a simple 100% loading indicator with the default colors, you can just have this code for the initiation:
+
         let circle = CAView(frame: CGRectMake(50, 50, 100, 100))
         circle.configure()
         self.view.addSubview(circle)
