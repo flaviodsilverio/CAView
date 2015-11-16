@@ -48,7 +48,6 @@ class ViewController: UIViewController {
         self.view.viewWithTag(200)?.removeFromSuperview()
         
         let circle = CAView(frame: CGRectMake(50, 50, 100, 100))
-        circle.configure()
         circle.tag = 200
         self.view.addSubview(circle)
         
@@ -69,9 +68,9 @@ class ViewController: UIViewController {
         circle.backgroundColor = UIColor.blackColor()
         circle.backgroundCircleColor = UIColor.yellowColor()
         circle.fillColor = UIColor.redColor()
-        circle.configure()
         self.view.addSubview(circle)
         
+        circle.fillColor = UIColor.purpleColor()
         circle.tag = 201
 
         
@@ -81,12 +80,11 @@ class ViewController: UIViewController {
     
     func exampleThree(){
         
-        self.view.viewWithTag(201)?.removeFromSuperview()
+        self.view.viewWithTag(202)?.removeFromSuperview()
         
         let circle = CAView(frame: CGRectMake(200, 50, 100, 100))
         circle.setText("My Text")
         circle.backgroundCircleColor = UIColor.blackColor()
-        circle.configure()
         circle.percentage = 0.5
         circle.startingPoint = CAView.StartingPoint.Bottom
         circle.fillColor = UIColor.yellowColor()
@@ -94,7 +92,7 @@ class ViewController: UIViewController {
         self.view.addSubview(circle)
         
         circle.animate(0.2)
-        circle.tag = 201
+        circle.tag = 202
         
         
     }

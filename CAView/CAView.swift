@@ -46,13 +46,17 @@ class CAView: UIView {
         
     }
     
+    override func willMoveToSuperview(newSuperview: UIView?) {
+        configure()
+    }
+    
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     func setText(text: String){
     
-        if count(text) > 0 {
+        if text.characters.count > 0 {
             
             self.userText = true
             labelText = text;

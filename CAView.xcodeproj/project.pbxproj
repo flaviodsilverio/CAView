@@ -159,7 +159,8 @@
 		1BD327D41B6E0ADC00C0EFA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Flávio Silvério";
 				TargetAttributes = {
 					1BD327DB1B6E0ADC00C0EFA7 = {
@@ -415,6 +416,7 @@
 				1BD327FD1B6E0ADC00C0EFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BD327FE1B6E0ADC00C0EFA7 /* Build configuration list for PBXNativeTarget "CAViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +425,7 @@
 				1BD328001B6E0ADC00C0EFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
