@@ -11,7 +11,6 @@ The usage is pretty simple and straightforward. First of all you need to configu
 As an example of a simple 100% loading indicator with the default colors, you can just have this code for the initiation:
 
         let circle = CAView(frame: CGRectMake(50, 50, 100, 100))
-        circle.configure()
         self.view.addSubview(circle)
 
 Amd then, whenever/whetever you wanna animate it you just have to call:
@@ -28,7 +27,6 @@ There's loads of configurable options, for example, let's imagine you want a cir
         circle.percentage = 0.17
         circle.clockwise = false
         circle.startingPoint = CAView.StartingPoint.Left
-        circle.configure()
         self.view.addSubview(circle)
         
 After that you just need to animate it:
@@ -46,7 +44,6 @@ Finnaly, let's say you want a label with your own text and without animation, yo
         let circle = CAView(frame: CGRectMake(200, 50, 100, 100))
         circle.setText("My Text")
         circle.backgroundCircleColor = UIColor.blackColor()
-        circle.configure()
         circle.label.textColor = UIColor.redColor()
 
 In case you change your mind and let's say after all you do want a animation that starts on the bottom, occupies half of the circle and is colored Yellow, you just have to add the following before the configure() call:
